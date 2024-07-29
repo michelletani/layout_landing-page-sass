@@ -1,0 +1,15 @@
+{
+  "name": "layout_landing-page-sass",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "@parcel/source-map": "^2.1.1"
+  }
+}
