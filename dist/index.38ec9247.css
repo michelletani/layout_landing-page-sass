@@ -49,14 +49,29 @@
 }
 
 .header__bottom {
-  padding: 0 20px 40px;
+  padding-bottom: 40px;
+  padding-inline: 20px;
+}
+
+@media (width >= 576px) {
+  .header__bottom {
+    padding-inline: 72px;
+  }
 }
 
 .top-bar {
   justify-content: space-between;
   align-items: center;
-  padding: 24px 20px;
+  padding-block: 24px;
+  padding-inline: 20px;
   display: flex;
+}
+
+@media (width >= 576px) {
+  .top-bar {
+    padding-block: 32px;
+    padding-inline: 72px;
+  }
 }
 
 .top-bar__icons {
@@ -69,9 +84,18 @@
 }
 
 .icon {
+  background-image: url("icon-menu.a267a292.png");
+  background-size: cover;
   width: 24px;
   height: 24px;
   display: block;
+}
+
+@media (width >= 576px) {
+  .icon {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 .icon--phone {
@@ -100,6 +124,12 @@
 
 .menu-content {
   padding-inline: 20px;
+}
+
+@media (width >= 576px) {
+  .menu-content {
+    padding-inline: 72px;
+  }
 }
 
 .menu__phone-number {
